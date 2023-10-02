@@ -21,6 +21,11 @@ body {
     font-size: 1.5rem;
 }
 
+.navbar.scrolled {
+    background-color: #c2ded1;
+    /*transition: background 500ms;*/
+}
+
 #title-head {
     font-weight: 100;
     font-size: 4rem;
@@ -39,10 +44,10 @@ body {
     line-height: 2;
 }
 
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+/*.content {*/
+/*    margin-top: 100px;*/
+/*    margin-bottom: 100px;*/
+/*}*/
 
 @media (max-width: 1200px) {
     #title-head h1 {
